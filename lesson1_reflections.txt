@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    R: It helps because it is hard to spot all differences (specially minor and error prone like typos) between two versions of a file. Looking at "diff -u" on linux or "FC" on windows makes it possible to look only the lines that change, making it much easier to spot what may be going wrong.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Because you need much less time doing irrelevant debugging that could be easily bypassed by using version control.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are:
+      - You have less versions to compare, making it more light and much better for working on groups
+      - Versions are logical
+    The cons:
+      - You need to remember to commit every now and then.
+      - More manual work on commenting commits
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because the files are in many occasions dependent on each other, and making all the files commit simultaneously increases the coherence and meaning of the commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+      By using git log you can see the ID of all previous repository commits (along with their comments), such that by using git diff ID1 ID2 the differences between the versions of ID1 and ID2 are made apparent.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can always go back to the previous version where everything was working well, so there is no big issue with breaking things.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Eu gostaria de usar o git para todos os projetos que envolvam programação, sem exceção, começando pelos projetos paralelos e eventualmente aplicando até à IC.
